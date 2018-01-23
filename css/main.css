@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+}
+
+.input-field label {
+  color: #777777;
+}
+
+#color:focus {
+    border-bottom: 1px solid #333;
+    box-shadow: 0 1px 0 0 #333;
+}
+
+#color:focus + label {
+    color: #333;
+}
+
+input[type=text].valid:not(.browser-default) {
+    border-bottom: 1px solid #333;
+    box-shadow: 0 1px 0 0 #333;
+}
+
+.input-field {
+    color: #777777;
+}
+
+#mainColorBox {
+    width: 500px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.color-results {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.color-row {
+    margin: 20px 0px;
+    text-align: left;    
+}
+
+.btn-copy {
+    float: right;
+}
+
+#random {
+    display: block;
+    width: 100% !important;
+    margin-top: 40px;
+}
+
+#message {
+    display: none;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #666666;
+    margin-top: 20px;
+    color: #f44336; 
+}
+
+#toast-container {
+    bottom: 0 !important;
+}
+
+.fa-exclamation-circle {
+    margin-right: 0.5rem;
+}
