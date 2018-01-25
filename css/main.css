@@ -74,3 +74,42 @@ input[type=text].valid:not(.browser-default) {
 .fa-exclamation-circle {
     margin-right: 0.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    #mainColorBox {
+        width: 75%;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    .color-results {
+        font-size: 1.4rem;
+    }
+
+    .btn-copy {
+        float: right;
+        padding: 0 5px;
+    }
+
+    #random {
+        margin-top: 40px;
+    }
+
+    #message {
+        font-size: 1.4rem;
+    }      
+}
+
+@media only screen and (max-width: 400px) {
+    .color-results {
+        font-size: 1rem;
+    }
+
+    .btn-copy {
+        padding: 0;
+    }
+
+    #message {
+        font-size: 1rem;
+    }      
+}
