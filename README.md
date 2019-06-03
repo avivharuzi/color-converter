@@ -1,2 +1,3 @@
-# color-converter
-convert colors by kinds
+# Color Converter
+
+Convert colors by kinds
